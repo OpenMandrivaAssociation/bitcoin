@@ -15,7 +15,7 @@ Url:		http://www.bitcoin.org
 Source0:	https://github.com/%{name}/%{name}/archive/%{name}-%{version}.tar.gz
 Source1:	bitcoind.service
 Source2:	bitcoind-tmpfiles.conf
-Patch0:		bitcoin-fix-desktop-icon-name.patch
+#Patch0:		bitcoin-fix-desktop-icon-name.patch
 BuildRequires:	ccache
 BuildRequires:	git
 BuildRequires:	imagemagick
