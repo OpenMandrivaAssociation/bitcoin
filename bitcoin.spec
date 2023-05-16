@@ -7,7 +7,7 @@
 
 Summary:	P2P Digital Currency
 Name:		bitcoin
-Version:	0.14.2
+Version:	24.1
 Release:	1
 License:	MIT
 Group:		Networking/Other
