@@ -196,7 +196,6 @@ This package contains development files.
 
 %prep
 %setup -q
-%patch0 -p1
 
 # (tpg) fix linking with llvm-ar
 sed -i -e 's/\-rs/rs/g' src/leveldb/Makefile*
