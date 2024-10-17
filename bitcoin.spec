@@ -11,7 +11,7 @@ Version:	24.1
 Release:	1
 License:	MIT
 Group:		Networking/Other
-Url:		http://www.bitcoin.org
+Url:		https://www.bitcoin.org
 Source0:	https://github.com/%{name}/%{name}/archive/%{name}-%{version}.tar.gz
 Source1:	bitcoind.service
 Source2:	bitcoind-tmpfiles.conf
