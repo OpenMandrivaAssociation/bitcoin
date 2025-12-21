@@ -16,6 +16,11 @@ Source0:	https://github.com/%{name}/%{name}/archive/%{name}-%{version}.tar.gz
 Source1:	bitcoind.service
 Source2:	bitcoind-tmpfiles.conf
 #Patch0:		bitcoin-fix-desktop-icon-name.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ccache
 BuildRequires:	git
 BuildRequires:	imagemagick
